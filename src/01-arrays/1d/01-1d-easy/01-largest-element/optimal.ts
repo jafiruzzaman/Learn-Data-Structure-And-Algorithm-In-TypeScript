@@ -1,7 +1,8 @@
 /*
-  * Question Link: https://www.geeksforgeeks.org/problems/largest-element-in-array4009/1
-*/
-
+ * Question Link: https://www.geeksforgeeks.org/problems/largest-element-in-array4009/1
+ */
+/* ----------------------------------------------------- imports ----------------------------------------------------- */
+import { runTests, TestCase } from "../../../../utils/code-runner";
 /**
  * Finds the largest number in a given array.
  *
@@ -28,26 +29,12 @@ function findLargest(arr: number[]): number | null {
   return result;
 }
 
-/* -------- Main Function -------- */
-function main() {
-  // Array of test cases
-  let testCases: number[][] = [
-    [3, 5, 1, 8, 2], // Mixed numbers
-    [-10, -3, -25, -7], // Negative numbers
-    [42], // Single element
-    [], // Empty array
-  ];
+const testCases: TestCase<number[], number>[] = [
+  { input: [1, 3, 5, 2], expected: 5 },
+  { input: [10], expected: 10 },
+  { input: [-5, -2, -9], expected: -2 },
+  { input: [], expected: -1 },
+];
 
-  // Iterate over each test case and print the result
-  testCases.forEach((test, index) => {
-    const largest = findLargest(test);
-    if (largest === null) {
-      console.log(`Test Case ${index + 1}: Array is empty.`);
-    } else {
-      console.log(`Test Case ${index + 1}: Largest = ${largest}`);
-    }
-  });
-}
-
-// Run the main function
-main();
+// run code
+runTests(findLargest, testCases, "Find Largest Element");

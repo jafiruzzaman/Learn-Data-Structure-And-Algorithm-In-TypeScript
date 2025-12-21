@@ -1,4 +1,4 @@
-type TestCase<T, R> = {
+export type TestCase<T, R> = {
   input: T;
   expected?: R;
 };
