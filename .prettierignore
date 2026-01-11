@@ -1,0 +1,24 @@
+# Dependencies
+node_modules
+dist
+build
+
+# Config & metadata
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# IDE & system files
+.idea
+.vscode
+.DS_Store
+
+# Logs
+*.log
+
+# Coverage & reports
+coverage
+
+# Generated files
+*.min.js
+*.map
