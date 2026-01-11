@@ -82,7 +82,7 @@ let strObject:String = new String("Hello World");
 console.log("strObject: "+strObject);
 
 // 6️⃣ Math : Math is a built-in Object
-let PI:Math = Math.PI;
+let PI:number = Math.PI;
 console.log("Math: "+PI);
 
 // 7️⃣ set: set is a data-structure that allows to store unique values
