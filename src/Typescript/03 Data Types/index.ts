@@ -58,10 +58,12 @@ console.log("bigint: "+largeInt);
 console.log("========================================= Non Primitive Data-Type =========================================");
 
 // 1️⃣ Arrays : Array is a Collection Of
+// @ts-ignore
 let numbers:number[] = [1,2,3,4,5,6,7,8,9,10];
 console.log("Arrays: "+numbers);
 
 // 2️⃣ Objects: Objects are key-value pair
+// @ts-ignore
 let person:{id:number, name:string}= {
   id: 1,
   name: "Mohammad Jafiruzzaman"
