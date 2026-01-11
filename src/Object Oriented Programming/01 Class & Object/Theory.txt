@@ -1,0 +1,36 @@
+========================================== Object Oriented Programming ==========================================
+OOP is a programming paradigm that organizes software around objects (data + behavior), using classes as blueprints
+
+1️⃣ What is class?
+A class is a user-defined blueprint that defines properties (data) and methods (behavior).
+
+2️⃣ What is Object?
+Object: An object is a runtime instance of a class.
+
+3️⃣ What is constructor
+constructor: A constructor is a special method that initializes an object’s state at the time of creation.
+
+4️⃣ What is method?
+methods: Methods are functions defined inside a class that operate on the object’s data.
+
+5️⃣ Access-Modifiers
+public: access from anywhere
+protected: Class itself + subclasses
+private: Class itself only
+
+6️⃣ Encapsulation: Encapsulation is the practice of bundling data and methods together and controlling access to internal state.
+	Rules:
+		1. private the data/fields
+		2. set and get data/fields using getter & setters
+
+7️⃣ Inheritance: Inheritance allows a child class to acquire properties and methods of a parent class.
+	1. extends --> used to inherit parent class properties
+	2. super --> to pass constructor value from child to parent
+
+8️⃣ Abstraction: Abstraction focuses on defining what an object does, not how it does it.
+	1. Abstract Class
+	2. Abstract Method
+
+9️⃣ Polymorphism : Polymorphism means many forms.
+	1. Compile-time polymorphism is achieved by method overloading based on parameter types or count — not return type.
+	2. Runtime polymorphism is achieved via method overriding using inheritance or interfaces.
