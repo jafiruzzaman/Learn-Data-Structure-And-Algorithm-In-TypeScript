@@ -1,4 +1,7 @@
-console.log("================================= Loops in TypeScript =================================");
+export {};
+console.log(
+  '================================= Loops in TypeScript =================================',
+);
 /*
   What is Loop?
   Loop is used to avoid repetitions.If I want to print from 1 to 100000000 it takes hours or even days.By using loop we can do it with in a seconds.
@@ -31,48 +34,61 @@ console.log("================================= Loops in TypeScript =============
     }
 */
 
-console.log("================================= For Loop in TypeScript =================================");
+console.log(
+  '================================= For Loop in TypeScript =================================',
+);
 for (let i: number = 0; i < 5; i++) {
-  console.log("For loop iteration:", i);
+  console.log('For loop iteration:', i);
 }
 
-console.log("================================= while Loop in TypeScript =================================");
+console.log(
+  '================================= while Loop in TypeScript =================================',
+);
 let j: number = 0;
 while (j < 5) {
-  console.log("While loop iteration:", j);
+  console.log('While loop iteration:', j);
   j++;
 }
 
-
-console.log("================================= Do While Loop in TypeScript =================================");
+console.log(
+  '================================= Do While Loop in TypeScript =================================',
+);
 let k: number = 0;
 do {
-  console.log("Do-While iteration:", k);
+  console.log('Do-While iteration:', k);
   k++;
 } while (k < 5);
 
-console.log("================================= For Of Loop in TypeScript =================================");
+console.log(
+  '================================= For Of Loop in TypeScript =================================',
+);
 // @ts-ignore
 let numbers: number[] = [10, 20, 30];
 for (let num of numbers) {
-  console.log("For…of:", num);
+  console.log('For…of:', num);
 }
 
-console.log("================================= For In Loop in TypeScript =================================");
+console.log(
+  '================================= For In Loop in TypeScript =================================',
+);
 // @ts-ignore
-let person:{name:string,age:number} = { name: "Tuhin", age: 21 };
+let person: { name: string; age: number } = { name: 'Tuhin', age: 21 };
 for (let key in person) {
-  console.log(key, ":", person[key as keyof typeof person]);
+  console.log(key, ':', person[key as keyof typeof person]);
 }
 
-console.log("================================= Break Statement in TypeScript =================================");
-for (let i:number = 0; i < 5; i++) {
-  if (i === 3) break;      // exits at i=3
+console.log(
+  '================================= Break Statement in TypeScript =================================',
+);
+for (let i: number = 0; i < 5; i++) {
+  if (i === 3) break; // exits at i=3
   console.log(i);
 }
-console.log("================================= Continue Statement in TypeScript =================================");
+console.log(
+  '================================= Continue Statement in TypeScript =================================',
+);
 
-for (let i:number = 0; i < 5; i++) {
-  if (i === 2) continue;   // skips i=2
+for (let i: number = 0; i < 5; i++) {
+  if (i === 2) continue; // skips i=2
   console.log(i);
 }
