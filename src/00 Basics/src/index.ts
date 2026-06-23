@@ -7,7 +7,7 @@
  * What is TypeScript
  * Ans: TypeScript is a superset of JavaScript. TypeScript allows types in JavaScript
  */
-
+export {};
 // print in console
 console.log("Hello World");
 
