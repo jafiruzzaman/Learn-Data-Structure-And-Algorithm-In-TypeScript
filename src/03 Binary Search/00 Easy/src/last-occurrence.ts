@@ -1,10 +1,6 @@
 /**
  * @file last-occurrence.ts
- * @description
- */
-/**
- * @file first-occurrence.ts
- * @description find the first occurrence of target value in a sorted array
+ * @description find the las occurrence of target value in a sorted array
  */
 
 export {};
